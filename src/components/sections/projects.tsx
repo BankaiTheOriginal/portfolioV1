@@ -62,7 +62,7 @@ export default function Projects() {
     <section id="experience" className="py-20">
       <div className="container mx-auto px-10 md:px-14 lg:px-32 py-20">
         <h2 className="text-2xl md:text-4xl font-bold text-black mb-10">
-          Where I’ve Worked
+          My Projects
         </h2>
         <div className="flex flex-col md:flex-row">
           <div className="md:w-1/4">

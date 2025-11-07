@@ -1,4 +1,5 @@
 import React from "react";
+import { LayoutTextFlip } from "../ui/layout-text-flip";
 
 export default function Header() {
   return (
@@ -8,8 +9,11 @@ export default function Header() {
           Welcome to my portfolio site 🚀
         </div>
         <div className="p-4 flex justify-between items-center bg-white text-black cursor-default">
-          <span className="bg-black px-2  md:py-2 md:px-4 rounded-full flex items-center justify-center">
-            <h1 className="md:text-3xl  text-white p-2">J</h1>
+          <span className="w-full px-2 md:py-2 md:px-4 rounded-full flex   text-xl sm:text-2xl md:text-4xl">
+            <LayoutTextFlip
+              text=""
+              words={["Strategic", "Disciplined", "Relentless", "The Bankai"]}
+            />
           </span>
           <nav className="hidden md:flex gap-5">
             <a

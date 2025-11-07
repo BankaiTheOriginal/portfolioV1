@@ -18,7 +18,7 @@ export default function Experience() {
     },
     {
       id: 2,
-      company: "Excellium Consulting, Lagos",
+      company: "Excellium Consulting",
       role: "Full Stack Developer",
       duration: "June 2025 - Present",
       description: [
