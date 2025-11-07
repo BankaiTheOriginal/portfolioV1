@@ -16,6 +16,19 @@ export default function Experience() {
         "Regular security and firewall updates were performed on computer systems to ensure safety for staff and students",
       ],
     },
+    {
+      id: 2,
+      company: "Excellium Consulting, Lagos",
+      role: "Full Stack Developer",
+      duration: "June 2025 - Present",
+      description: [
+        "Built robust backend integrations and synchronizations between services, reducing user input by 90%",
+        "Followed security protocols and network compliance regulations for application integrations",
+        "Built scripts and APIs to integrate Sage Pastel 50c with Zoho Books",
+        "Implemented updates immediately based on user feedback",
+        "Followed strict efficiency protocols to ensure APIs were optimized for time complexity",
+      ],
+    },
   ];
 
   const [activeTab, setActiveTab] = useState(0);

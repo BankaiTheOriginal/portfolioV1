@@ -1,4 +1,21 @@
 import React from "react";
+import { Icons } from "../ui/icons/icons";
+const iconList = [
+  Icons.typescript,
+  Icons.javascript,
+  Icons.react,
+  Icons.nextjs,
+  Icons.nestjs,
+  Icons.firebase,
+  Icons.tailwindcss,
+  Icons.java,
+  Icons.redis,
+  Icons.express,
+  Icons.prisma,
+  Icons.mongodb,
+  Icons.mongoose,
+  Icons.django,
+];
 export default function About() {
   return (
     <section id="about">
@@ -24,19 +41,18 @@ export default function About() {
             applications. I’ve worked on a range of projects, from property
             rental platforms to e-commerce solutions. My current goal is to
             design accessible and efficient systems using modern technologies.
-            Here are a few technologies I’ve been working with recently:
+            Here are a few technologies i work with:
           </div>
           <br></br>
-          <ul className="grid grid-cols-2 text-sm md:text-lg lg:text-xl mt-6 text-black/50 list-disc pl-5">
-            <li>JavaScript (ES6+)</li>
-            <li>TypeScript</li>
-            <li>React</li>
-            <li>React Native</li>
-            <li>Next.js</li>
-            <li>NestJS</li>
-            <li>Firebase</li>
-            <li>Tailwind CSS</li>
-          </ul>
+          <div className="relative overflow-hidden w-full container mt-6">
+            <ul className="flex gap-20  whitespace-nowrap animate-marquee hover:[animation-play-state:paused]">
+              {iconList.concat(iconList).map((Icon, index) => (
+                <li key={index} className="inline-block">
+                  <Icon className="text-4xl text-black hover:text-gray-800 transition-colors" />
+                </li>
+              ))}
+            </ul>
+          </div>
         </div>
       </div>
     </section>
