@@ -16,8 +16,8 @@ export default function Contact() {
         </div>
         <div className="text-sm md:text-lg lg:text-xl text-black/50 text-center">
           I&apos;m actively seeking new opportunities and my inbox is always
-          open. Whether you have a question or just want to say hello, I&apos;ll
-          do my best to respond promptly!
+          open. Whether you have a project in mind or just want to chat, jump in
+          my DMs!, let&apos;s get it.
         </div>
         <div className="flex mt-7 justify-center items-center">
           <RainbowButton onClick={handleEmailClick}>Contact Me</RainbowButton>

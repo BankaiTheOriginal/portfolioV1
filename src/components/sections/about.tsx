@@ -25,9 +25,9 @@ export default function About() {
             About Me
           </p>
           <div className="text-sm md:text-lg lg:text-xl mt-3">
-            Hello! I’m Julius-Attah Chukwulaka, a full-stack engineer passionate
-            about building impactful digital experiences. My journey began with
-            coding in my early days, and I further developed my skills at{" "}
+            Hello, I’m Justice Julius, a full-stack engineer passionate about
+            building impactful digital experiences. My journey began with coding
+            in my early days, and I further developed my skills at{" "}
             <a
               href="https://niit.com"
               target="_blank"
