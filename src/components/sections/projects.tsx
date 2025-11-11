@@ -5,6 +5,18 @@ export default function Projects() {
   const projects = [
     {
       id: 1,
+      name: "Speeda",
+      description: [
+        "Tests and displays real-time internet speed in Mbps using live data streams",
+
+        //"Features upload and download test capabilities for accurate performance metrics",
+        "Uses a modern UI built with React, Tailwind CSS, and TypeScript",
+        "Displays dynamic visual feedback and refresh controls for retesting speeds",
+        "Plans for future integration with network data APIs to calculate average speeds across Nigerian ISPs",
+      ],
+    },
+    {
+      id: 2,
       name: "Vendtill POS API",
       description: [
         "Retrieves sales information using configured webhooks and transforms it into understandable data by Zoho Books using batch processing to reduce API load",
@@ -13,7 +25,7 @@ export default function Projects() {
       ],
     },
     {
-      id: 2,
+      id: 3,
       name: "Microsoft BC API",
       description: [
         "Uploads and transforms expense information and uploads it to Microsoft BC",
@@ -22,7 +34,7 @@ export default function Projects() {
       ],
     },
     {
-      id: 3,
+      id: 4,
       name: "Python IDE",
       description: [
         "An IDE suite featuring an optimization compiler, interpreter, syntax highlighting, and error highlighting",
@@ -30,7 +42,7 @@ export default function Projects() {
       ],
     },
     {
-      id: 4,
+      id: 5,
       name: "Portfolio Site",
       description: [
         "Designed and built my portfolio site from scratch following industry-level design principles",
@@ -38,8 +50,8 @@ export default function Projects() {
       ],
     },
     {
-      id: 5,
-      name: "Cryb —(Currently in Dev)",
+      id: 6,
+      name: "Cryb — (In Dev)",
       description: [
         "Building a full-stack web and mobile platform for property listings",
         "Backend: NestJS + PostgreSQL with Prisma ORM",
@@ -48,8 +60,8 @@ export default function Projects() {
       ],
     },
     {
-      id: 6,
-      name: "GitHub Contributions Visualizer (Currently in Dev)",
+      id: 7,
+      name: "GitHub Contributions Visualizer (In Dev)",
       description: [
         "Pulls data from the GitHub API to display commit activity",
         "Visual green-box contribution chart with user profile data",
