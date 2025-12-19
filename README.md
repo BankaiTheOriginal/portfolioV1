@@ -1,12 +1,12 @@
-# Portfolio of Justice Julius🌟
+# My Portfolio
 
-Welcome to my personal portfolio! 🚀 This is a showcase of my skills, projects, and experiences as a **Full-Stack Engineer**. Here, you'll find my journey through tech, the projects I've built, and the tools I love to use.
+This is my portfolio's repo ! 🚀 Check it out, you can copy modify and make yours too.
 
 ---
 
 ## 🌐 Live Preview
 
-👉 [View My Portfolio Here](https://your-portfolio-url.com)
+👉 [View My Portfolio Here](https://justicejulius.com)
 
 ---
 
